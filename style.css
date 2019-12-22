@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	width: 100%;
+	height: 100%;
+}
 header{
 	background-color: #b88181;
 }
@@ -48,8 +52,15 @@ header a:hover{
 	background-color: skyblue;
 	font-family: montserrat;
 }
+#Projects h1{
+	display: flex;
+	justify-content: center;
+}
 #Projects p{
 	font-size: 19pt;
+	display: flex;
+	justify-content: center;
+	padding: 1%;
 } 
 #Projects a{
 	text-decoration: none;
@@ -72,7 +83,7 @@ header a:hover{
 #contacts p{
 	font-size: 19pt;
 	color: white;
-}
+} 
 #form{
 	background-color: skyblue;
 	font-family: montserrat;
@@ -104,9 +115,9 @@ form input{
 	width: 50%;
 	height: 30px;
 	margin-left: 25%;
-	margin-top: 3%;
+	margin-top: 5%;
 	border-radius: 30px;
-	margin-bottom: 3%;
+	margin-bottom: 5%;
 }
 .thesame2:hover{
 	color: skyblue;
